@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Sky Nuke Shelter</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+      <h1>Enroll for Nuclear Shelter Program</h1>
+      <label>&#258;&#194;&#206;&#350;&#354;&#351;&#238;&#259;&#351;&#355;</label>
+      <br>
+      <img src="shelter.png" alt="a safe haven" height="500" width="885">
+      <br>
+      <br>
+      <br>
+    <form name="enrollment_form" method="get" action="html5.html#success">
+
+      <fieldset>
+        <legend>Personal Information</legend>
+        <table>
+          <tr>
+            <th><label for="name">Name:</label></th>
+            <td><input type="text" id="name" name="name" size="30" maxlength="50"  ></td>
+          </tr>
+          <tr>
+            <th><label for="email">Email:</label></th>
+            <td><input type="text" id="email" name="email" size="30" maxlength="50"  ></td>
+          </tr>
+          <tr>
+            <th><label for="age">Age:</label></th>
+            <td><input type="number" id="age" name="age" min="18" max="45" step="1" value="18"></td>
+          </tr>
+          <tr>
+            <th><label for="gender">Gender:</label></th>
+            <td>
+              <select id="gender" name="gender"  >
+                <option value="">--Select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="address">Address:</label></th>
+            <td><textarea id="address" name="address" rows="4" cols="30"></textarea></td>
+          </tr>
+          <tr>
+            <th><label for="availability">Available from</label></th>
+            <td>
+              <input id="availability" type="date">
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Shelter Preferences</legend>
+        <table>
+          <tr>
+            <th><label>Type of Shelter:</label></th>
+            <td>
+              <input type="radio" id="shelter_type1" name="shelter_type" value="underground" checked> <label for="shelter_type1">Underground</label><br>
+              <input type="radio" id="shelter_type2" name="shelter_type" value="aboveground"> <label for="shelter_type2">Aboveground</label>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="duration">Duration:</label></th>
+            <td>
+              <select id="duration" name="duration" multiple>
+                <option value="5">5 years</option>
+                <option value="10">10 years</option>
+                <option value="20">20 years</option>
+                <option selected value="50">50 years</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="location">Location:</label></th>
+            <td><input type="text" id="location" name="location" size="30" maxlength="50"  ></td>
+          </tr>
+          <tr>
+            <th><label for="description">Description:</label></th>
+            <td><textarea id="description" name="description" rows="4" cols="30" readonly>classified</textarea></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Terms and conditions</legend>
+        <ol start="1">
+          <li>
+            I understand that the Nuclear Shelter Program is a privately funded initiative and that <strong>I will be responsible for all costs associated</strong> with my enrollment in the program.
+          </li>
+          <li>
+            I certify that all information provided in this enrollment form is true and accurate to the best of my knowledge.
+          </li>
+          <li>
+            I understand that the shelter location and duration may be subject to change based on availability and other factors.
+          </li>
+        </ol>
+        <div>
+          <input type="checkbox" id="accept_terms" name="accept_terms" value="accepted">
+          <label for="accept_terms">I have read and accept the terms and conditions</label>
+        </div>
+      </fieldset>
+      <br>
+      <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <button name="the_time_has_come" disabled>Disble form</button>
+      </div>
+    </form>
+
+    <br>
+    <br>
+    <fieldset>
+      <legend>Program Hierarchy</legend>
+      <table>
+        <tr>
+          <td colspan="2" rowspan="1">Sky</td>
+        </tr>
+        <tr>
+          <td>Lead Research C.</td>
+          <td colspan="1" rowspan="2">Lead Security D.</td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">A Class Personnel</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="1">You, brave and visionary enrolee</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="1">
+            <table>
+              <tr>
+                <td colspan="1" rowspan="1">C Class Personnel</td>
+                <td colspan="1" rowspan="1">D Class Personnel</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <p>Additional information about the program can be found <a href="https://fallout.fandom.com/wiki/Fallout_Wiki" target="_blank">here.</a></p>
+    
+    <br>
+    <br>
+    <div>
+      <div>
+        Enemies
+        <ul>
+          <li>Humans</li>
+          <li>Creatures
+            <ul>
+              <li>Animals</li>
+              <li>Bugs and insects</li>
+              <li>Scorched</li>
+            </ul>
+          </li>
+            
+          <li>Robots</li>
+        </ul>
+      </div>
+      <div>
+        Weapons
+        <ol type="A">
+          <li>Ranged
+            <ol type="I">
+              <li>Rifles</li>
+              <li>Shotguns</li>
+              <li>Pistols</li>
+            </ol>
+          </li>
+          <li>Melee</li>
+          <li>Thrown</li>
+        </ol>
+      </div>
+    </div>
+
+  </body>
+</html>
