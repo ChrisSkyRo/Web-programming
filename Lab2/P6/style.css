@@ -1,0 +1,15 @@
+input {
+    background-image: url("square.png");
+    width: 516px;
+    height: 25px;
+    background-size: 27px;
+    border: none;
+    font-family: "Courier New", monospace;
+    padding-left: 5px;
+    letter-spacing: 2.4ch;
+    white-space: pre;
+}
+
+#cnp {
+    width: 355px;
+}
